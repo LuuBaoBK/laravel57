@@ -1,3 +1,3 @@
 <?php
 
-CONST MYCONST = "my constant string";
+CONST FEATURE_ADMIN_AUTH = "Admin\Auth";

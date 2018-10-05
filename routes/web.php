@@ -15,4 +15,5 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'Feature\FeatureController@index');
+Route::get('/', 'Admin\Auth\AuthController@index');
+Route::post('/login', 'Admin\Auth\AuthController@login')->name('postLogin');;

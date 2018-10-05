@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        \Schema::defaultStringLength(191);
+        //require all constant virable
+        require_once(app_path().'/Http/constant.php');
     }
 
     /**
